@@ -24,10 +24,4 @@ class Calculator {
   }
 }
 
-const Casio = new Calculator();
-Casio.add(5);
-Casio.add(10);
-Casio.subtract(7);
-console.log(Casio.value);
-
 module.exports = Calculator;
